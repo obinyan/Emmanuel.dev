@@ -581,13 +581,14 @@ ul{
     flex-direction: column;
     width: 100%;
     /*padding: 2rem 1rem;*/
-    margin-top: 0;
+    margin: 0;
     top: 0;
   }
 
   .about-top-left p {
     width: 100%;
     font-size: 1.1rem;
+    padding: 0 1rem;
   }
 
   .about-top-left img {
