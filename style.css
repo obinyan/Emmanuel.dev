@@ -580,8 +580,9 @@ ul{
   .about-top-left {
     flex-direction: column;
     width: 100%;
-    padding: 2rem 1rem;
-    margin-top: 10rem;
+    /*padding: 2rem 1rem;*/
+    margin-top: 0;
+    top: 0;
   }
 
   .about-top-left p {
