@@ -580,13 +580,14 @@ ul{
   .about-top-left {
     flex-direction: column;
     width: 100%;
+    gap: 0;
     /*padding: 2rem 1rem;*/
     margin: 0;
     top: 0;
   }
 
   .about-top-left p {
-    width: 100%;
+    width: 23rem;
     font-size: 1.1rem;
     padding: 0 1rem;
   }
@@ -594,6 +595,7 @@ ul{
   .about-top-left img {
     width: 100%;
     height: auto;
+    margin: 0 1rem 0 0;
   }
 
   .about-top-left::before,
