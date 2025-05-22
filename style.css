@@ -104,6 +104,10 @@ ul{
     width: 2rem;
 }
 
+.navigation button a{
+    color: #000;
+}
+
 .navigation button:hover {
     background-color: #000;
     color: #fff;
