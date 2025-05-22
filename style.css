@@ -592,6 +592,7 @@ ul{
     width: 21rem;
     font-size: 1.1rem;
     padding: 0 1rem;
+    margin: 0;
   }
 
   .about-top-left img {
@@ -600,7 +601,9 @@ ul{
     margin: 0 1rem 0 0;
   }
 
- 
+ .about-top-left::before{
+    width: 22.5rem;
+ }
 
   /* Skills */
   .skills {
