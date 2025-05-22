@@ -547,7 +547,7 @@ ul{
     min-height: 100%;
     width: 50rem;
     height: auto;
-    object-fit: fill;
+    object-fit: contain;
 }
 
   .heading {
