@@ -53,8 +53,8 @@ a{
 
 .heading{
     display: flex;
-    /*justify-content: space-between;*/
-    gap: 35rem;
+    justify-content: space-between;
+    /*gap: 35rem;*/
     align-items: center;
     background-color: rgba(10, 10, 10, 0.9);
     width: 100%;
@@ -92,11 +92,12 @@ ul{
     display: flex;
     align-items: center;
     gap: 2rem;
+    margin: 0 0 0 2rem;
 }
 
 .navigation button{
     background-color: #fff;
-    padding: 0.5rem 1rem;
+    /*padding: 0.5rem 1rem;*/
     border-radius: 0.3125rem;
     border: none;
     cursor: pointer;
