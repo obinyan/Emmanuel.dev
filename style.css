@@ -129,6 +129,10 @@ ul{
     display: none;
 }
 
+.menu-bar > ul > li{
+    fill: #000;
+}
+
 
 .sidebar{
     position: absolute;
