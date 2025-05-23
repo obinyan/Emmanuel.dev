@@ -110,7 +110,7 @@ ul{
     color: #000;
 }
 
-.navigation button a:hover {
+.navigation button:hover {
     background-color: #000;
     color: #fff;
 }
