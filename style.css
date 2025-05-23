@@ -115,6 +115,11 @@ ul{
     color: #fff;
 }
 
+.navigation button a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
 /*styling the menu bar*/
 .menu-bar{
     position: absolute;
