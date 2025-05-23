@@ -186,11 +186,13 @@ ul{
     top: 0;
     margin: 92px 0 0 20px;
     display: none;
+    z-index: 999;
 }
 
 .contact-btn img{
     height: 4rem;
     width: 4rem;
+    z-index: 999;
 }
 
 
@@ -596,7 +598,7 @@ ul{
   .about-top-left {
     flex-direction: column;
     width: 100%;
-    height: 115vh;
+    height: 131vh;
     gap: 0;
     /*padding: 2rem 1rem;*/
     margin: 0;
