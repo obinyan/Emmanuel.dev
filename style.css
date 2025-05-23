@@ -205,7 +205,8 @@ ul{
 .about-top-left{
     display: flex;
     background-color: rgb(173, 19, 78);
-    width: 69rem;
+    width: 72rem;
+    height: 37rem;
     gap: 2rem;
     position: relative;
     top: 12rem;
@@ -250,7 +251,7 @@ ul{
     font-optical-sizing: auto;
     
     font-style: normal;
-    width: 39rem;
+    width: 42.5rem;
     color: #fff;
     font-weight: 400;
     line-height: 2rem;
