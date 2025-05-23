@@ -206,7 +206,7 @@ ul{
     display: flex;
     background-color: rgb(173, 19, 78);
     width: 72rem;
-    height: 37rem;
+    height: 33rem;
     gap: 2rem;
     position: relative;
     top: 12rem;
@@ -243,7 +243,7 @@ ul{
 .about-top-left img{
     width: 25rem;
     height: 25rem;
-    margin: 10rem 0 0 0;
+    margin: 4rem 0 0 0;
 }
 
 .about-top-left p{
