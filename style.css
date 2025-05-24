@@ -54,7 +54,7 @@ a{
 .heading{
     display: flex;
     /*justify-content: space-between;*/
-    gap: 27rem;
+    gap: 1rem;
     align-items: center;
     background-color: rgba(10, 10, 10, 0.9);
     width: 100%;
