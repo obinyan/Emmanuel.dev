@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 
@@ -34,6 +35,7 @@ a{
     left: 0;
     width: 100%;
     height: 100vh;
+    height: -webkit-fill-available;
     overflow: hidden;
     background-color: #000;
     /*z-index: -1;*/
@@ -49,6 +51,7 @@ a{
     width: auto;
     height: auto;
     object-fit: cover;
+    -webkit-object-fit: cover;
 }
 
 
@@ -149,6 +152,7 @@ ul{
     /*margin-left: 20px;*/
     background-color: #ffffff1e;
     backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     box-shadow: -10px 0px 10px #000001;
     display: none;
    
@@ -561,6 +565,23 @@ ul{
     color: #004b8e;
     text-decoration: underline;
 }
+
+.about-top-left,
+.skills,
+.projects > div,
+.service,
+.contact-info {
+  min-width: 0;
+}
+
+.navigation button,
+.project,
+.service > div {
+  transition: all 0.3s ease-in-out;
+}
+
+
+
 
 @media (max-width: 768px) {
   /* Header */  
