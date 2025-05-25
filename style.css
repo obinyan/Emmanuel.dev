@@ -226,6 +226,7 @@ ul{
     /*border-left: 15px solid #000;
     border-right: 15px solid #000;*/
     color: #fff;
+    text-align: center;
 }
 
 .about-top-left::before{
