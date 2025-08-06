@@ -410,9 +410,9 @@ ul{
 /* the project section */
 
 .projects {
-    max-width: 75rem;
-    margin: 3.75rem auto;
-    padding: 0 1.25rem;
+    /*max-width: 75rem;
+    margin: 3.75rem auto;*/
+    padding: 4.2rem 1.25rem 4.5rem 1.25rem;
     font-family: 'Segoe UI', sans-serif;
 }
 
@@ -459,7 +459,7 @@ ul{
 .project > a > img {
     width: 100%;
     height: 25rem;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .project p {
