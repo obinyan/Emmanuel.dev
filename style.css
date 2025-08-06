@@ -633,6 +633,10 @@ ul{
         z-index: 998;
     }
 
+    .sidebar li:hover{
+        background: none;
+    }
+
   /* About Section */
   .about-top-left {
     flex-direction: column;
@@ -704,8 +708,8 @@ ul{
     gap: 4.5rem;
   }
 
-  .project img {
-    height: 14px;
+  .project > a > img {
+    height: auto;
   }
 
   /* Services */
