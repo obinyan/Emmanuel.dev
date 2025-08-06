@@ -701,7 +701,7 @@ ul{
   /* Projects */
   .projects > div {
     grid-template-columns: 1fr;
-    padding: 0 1rem;
+    gap: 4.5rem;
   }
 
   .project img {
