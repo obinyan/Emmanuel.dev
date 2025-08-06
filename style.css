@@ -648,8 +648,9 @@ ul{
   .about-top-left p {
     width: 21rem;
     font-size: 1.1rem;
-    padding: 0 1rem;
+    padding: 0 2.1rem;
     margin: 0;
+    text-align: left;
   }
 
   .about-top-left img {
@@ -704,7 +705,7 @@ ul{
   }
 
   .project img {
-    height: auto;
+    height: 14px;
   }
 
   /* Services */
